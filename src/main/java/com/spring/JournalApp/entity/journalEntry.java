@@ -2,7 +2,7 @@ package com.spring.JournalApp.entity;
 
 
 //POGO(Plain old java class)
-public class journalEntity {
+public class journalEntry {
 
     private long id;
     private String title;
