@@ -16,14 +16,17 @@ public class journalEntryService {
     private journalEntryRepository journalEntryRepository;
 
     public void saveEntry(journalEntry journalEntry) {
+
         journalEntryRepository.save(journalEntry);
     }
 
      public List<journalEntry> getAll(){
+
         return journalEntryRepository.findAll();
      }
 
      public Optional<journalEntry> findById(ObjectId id) {
+
         return journalEntryRepository.findById(id);
      }
 
