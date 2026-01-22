@@ -13,7 +13,7 @@ import java.util.Date;
 
 //POGO(Plain old java class)
 @Document
-
+@Data
 public class journalEntry {
 
     @Id
